@@ -1,0 +1,43 @@
+Bom Dia Galera, segue nosssos desafios:
+
+Desafio 1: Navegação e Manipulação de Arquivos
+
+Objetivo: Crie um script que faça o seguinte:
+
+    Crie um diretório chamado desafio_1.
+    Dentro desse diretório, crie um arquivo chamado documento.txt com o conteúdo "Este é um desafio complexo.
+    Navegue para o diretório desafio_1 e adicione a frase "Desafio concluído" no final do arquivo documento.txt.
+    Depois, mova o arquivo documento.txt para um novo diretório chamado concluidos.
+    Apague o diretório desafio_1, mas apenas se o diretório concluidos já existir.
+
+Dica: Use redirecionamento, operadores lógicos e os comandos adequados de navegação e manipulação de arquivos.
+
+
+
+Desafio 2: Filtragem e Redirecionamento de Saídas
+
+Objetivo: Você tem um arquivo de log chamado log.txt, e precisa realizar as seguintes tarefas:
+
+    Exiba no terminal as linhas que contêm a palavra "erro".
+    Salve essas linhas em um novo arquivo chamado erros.txt.
+    Adicione no final de erros.txt as linhas que contêm a palavra "aviso".
+    Se o arquivo log.txt não existir, exiba a mensagem "Arquivo não encontrado" e redirecione essa mensagem de erro para o arquivo erros.txt.
+
+Dica: Use os comandos grep, >>, 2>, e operadores lógicos.
+
+
+Script Completo com Operadores Lógicos
+
+Objetivo: Crie um script que execute as seguintes ações:
+
+    Crie uma pasta chamada projeto.
+    Dentro de projeto, crie dois subdiretórios chamados src e bin.
+    Em src, crie um arquivo de texto chamado codigo.py com o conteúdo "print(Desafio resolvido!)".
+    Tente rodar o código com python3 src/codigo.py, mas se o comando falhar (caso o Python não esteja instalado), exiba a mensagem "Python não encontrado" e redirecione o erro para um arquivo chamado erro_python.txt.
+    Caso o código rode corretamente, mova o arquivo codigo.py para o diretório bin e exiba uma mensagem "Código movido para bin" na tela.
+    No final, apague a pasta projeto (apenas se a pasta bin contiver o arquivo codigo.py).
+
+Dica: Utilize operadores &&, ||, ;, e manipule a saída e erros de maneira apropriada.
+
+
+BOA PRATICA a todos, a entrega da atividade é amanhã.
